@@ -42,6 +42,15 @@ DISCORD_TOKEN=seu_token_do_bot
 OPENAI_API_KEY=sua_key_da_openai
 ```
 
+**Importante**: No `deploy-commands.js`, você deve editar diretamente o código para preencher seu `clientId` e `guildId` com os valores corretos do seu bot e do seu servidor.
+
+Exemplo:
+
+```javascript
+const clientId = 'seu_client_id_aqui';
+const guildId = 'seu_guild_id_aqui';
+```
+
 Registre os comandos de slash:
 
 ```bash
