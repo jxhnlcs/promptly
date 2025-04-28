@@ -1,4 +1,3 @@
-// commands/ask.js
 const { SlashCommandBuilder } = require('discord.js');
 const { openaiAsk } = require('../services/openaiService');
 
