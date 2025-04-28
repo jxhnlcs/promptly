@@ -2,6 +2,10 @@
 
 Promptly é um bot de Discord open-source que conecta você ao ChatGPT usando comandos de texto diretamente no seu servidor!
 
+<p align="center">
+  <img src="assets/icon-promptly.png" alt="Promptly Logo" width="150" />
+</p>
+
 ## 🔥 Funcionalidades
 
 - Faça perguntas ao ChatGPT com o comando `/perguntar`.
