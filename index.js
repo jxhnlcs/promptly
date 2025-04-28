@@ -3,6 +3,18 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { discordToken } = require('./config');
 
+const express = require('express');
+const app = express();
+
+app.get('/ping', (req, res) => {
+  res.send('✅ Bot Promptly está online!');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`🌐 Servidor HTTP ouvindo na porta ${PORT}`));
+
+// ---------------------------------------------
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection();
 
