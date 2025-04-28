@@ -27,7 +27,6 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/jxhnlcs/promptly.git
-cd promptly
 ```
 
 Instale as dependências:
