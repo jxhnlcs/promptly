@@ -71,4 +71,4 @@ node index.js
 
 ---
 
-Feito com ❤️ por John Lucas ou [@ifyouweremy](https://discord.com/users/852939215503097896) no discord
+Feito com ❤️ por John Lucas ou [@johncaralho](https://discord.com/users/852939215503097896) no discord
